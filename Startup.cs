@@ -1,3 +1,5 @@
+using arthubwebapp.model;
+using arthubwebapp.services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -19,11 +21,13 @@ namespace arthubwebapp
         }
 
         public IConfiguration Configuration { get; }
+        public object JsonSerilizer { get; private set; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddTransient<jsonartfile>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -49,7 +53,8 @@ namespace arthubwebapp
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapRazorPages();
+                endpoints.MapRazorPages(); //aisa function jo address generate krwa rha hai
+                
             });
         }
     }

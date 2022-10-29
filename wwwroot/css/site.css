@@ -1,5 +1,59 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
+#ArtContainer {
+    margin-bottom: 10%;
+}
+#ArtContainer {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    height: 90%;
+}
+
+#Title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#Price {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+    font-style: italic;
+}
+ 
+ 
+#quantityInput {
+    border: none;
+    width: 100%;
+    text-align: center;
+}
+#Quantity {
+    width: 45%;
+    margin-left: 5%;
+    
+    display: inline-block;
+}
+
+#CartButton {
+    width: 45%;
+    display: inline-block;
+    border: none;
+   
+}
+#btn {
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+}
 
 a.navbar-brand {
   white-space: normal;
@@ -7,10 +61,18 @@ a.navbar-brand {
   word-break: break-all;
 }
 
+ 
+
 /* Provide sufficient contrast against white background */
 a {
   color: #0366d6;
 }
+
+
+ 
+
+
+
 
 .btn-primary {
   color: #fff;
@@ -23,6 +85,10 @@ a {
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
+
+
+
+
 
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -60,7 +126,7 @@ html {
 
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 60px;
+  margin-bottom:60px;
 }
 .footer {
   position: absolute;
@@ -69,3 +135,4 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+

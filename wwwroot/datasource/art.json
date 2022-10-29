@@ -1,27 +1,40 @@
 [
   {
     "id": 1,
-    "code": "Cal123",
-    "image": "https://www.storyblocks.com/images/stock/vector-arabic-calligraphy-translation-power-and-force-from-god-h5a9ce87dwj6gqdhn4"
+    "code": "Arabic-Cal01",
+    "image": "https://452405-1416411-1-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2022/09/IMG_20220921_164726-02-scaled.jpeg",
+    "price": 2500
   },
+
+
   {
     "id": 2,
-    "code": "Cal345",
-    "image": "https://www.pinterest.com/pin/502925483369673830/"
+    "code": "99names Acrylic",
+    "image": "https://452405-1416411-1-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2022/09/WhatsApp-Image-2022-09-14-at-5.04.47-PM.jpeg",
+    "price": 3000
   },
+
+
   {
     "id": 3,
-    "code": "Cal678",
-    "image": "https://www.shutterstock.com/image-illustration/islamic-calligraphy-quran-verses-alikhlas-alfalaq-2064054464"
+    "code": "Ar-Rehman Abstract Art",
+    "image": "https://452405-1416411-1-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2022/07/Picsart_22-07-20_12-39-38-623-scaled.jpg",
+    "price": 8000
   },
+
+
   {
     "id": 4,
-    "code": "Cal910",
-    "image": "https://www.shutterstock.com/image-illustration/arabic-calligraphy-verse-quran-on-vintage-1886736004"
+    "code": "Ayatul Kursi",
+    "image": "https://452405-1416411-1-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-08-19-at-7.56.45-PM-1.jpeg",
+    "price": 4500
   },
+
+
   {
     "id": 5,
-    "code": "Cal111",
-    "image": "https://www.shutterstock.com/image-illustration/islamic-calligraphy-translation-recite-name-lord-1880902159"
+    "code": "Asma ul Husna",
+    "image": "https://452405-1416411-1-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2022/08/2.jpg",
+    "price": 10000
   }
 ]

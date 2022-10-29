@@ -21,6 +21,11 @@ namespace arthubwebapp.model
         {
             get; set;
         }
+        [JsonPropertyName("price")]
+        public int price
+        {
+            get; set;
+        }
 
 
         public override string ToString()

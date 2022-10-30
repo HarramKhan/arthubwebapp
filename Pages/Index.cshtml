@@ -3,6 +3,20 @@
 @{
     ViewData["Title"] = "Home page";
 }
+<center>
+<form action="/formhandler" method="get">
+    <label for="id">Enter ID:</label>
+    <input id="id" type="number" name="id" value="" required />
+    
+    <label for="name">Enter Name:</label>
+    <input id="name" type="text" name="name" value="" required />
+    
+    <label for="image">Enter URL:</label>
+    <input id="image" type="text" name="image" value="" required />
+   
+    <label for="price">Enter Price:</label>
+    <input id="price" type="number" name="price" value="" required />
 
-
-
+ <input type ="submit" name="submit" value"submit" />
+</form>
+</center>

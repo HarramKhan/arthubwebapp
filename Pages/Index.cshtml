@@ -1,33 +1,8 @@
 ﻿@page
 @model IndexModel
 @{
-   
+    ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Art Hub</h1>
 
-   
-</div>
-<br/>
-<br/>
-
-<div class="row">
-@foreach(var Arthub in Model.arthubs)
-{
-    //<h2>@Arthub.code</h2>
-    //<h2>@Arthub.image</h2>
-  
-        <div id="ArtContainer" class="col-lg-3 col-md-4 col-sm-1">
-            <img id="ArtImage" style="width: 100%; height: 100%;" src="@Arthub.image" alt="@Arthub.code" />
-            <span id="Title">@Arthub.code</span>
-            <center>
-            <span id="Price">Rs. @Arthub.price</span>
-            <span id="Quantity"><input id="quantityInput" type="number" name="Quantity" value="" placeholder="0" /></span>
-            <br/>
-            <span id="CartButton"><button id="btn"><span class="fa fa-shopping-cart"></span>Add to Cart</button></span>
-       </center>
-       </div>
-}
-</div>
 
